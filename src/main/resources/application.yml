@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    username: root
+    password: 3690
+    url: jdbc:mysql://localhost:3306/rbdb
+    driver-class: com.mysql.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false
